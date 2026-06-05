@@ -1,0 +1,9 @@
+	/software/STAR/bin/STAR --readFilesManifest /hwmaster/hujingling/SNAREseq2/011_RNA_quantification/manifest_pre_exp1.tsv --genomeDir /hwmaster/hujingling/SNAREseq2/reference_geno/genome_index --outFileNamePrefix /hwmaster/hujingling/SNAREseq2/011_RNA_quantification/STARsolo_output/pre_exp1/pre_exp1 --soloFeatures GeneFull_Ex50pAS --runThreadN 16 --soloType SmartSeq --outSAMtype BAM Unsorted --outBAMcompression -1 --soloUMIdedup NoDedup --soloStrand Unstranded --limitOutSJcollapsed 500000 --soloCellFilter None --outReadsUnmapped Fastx --readFilesCommand zcat
+	STAR version: 2.7.11b   compiled: 2024-11-23T23:03:14+00:00 :/software/STAR/source
+Oct 30 17:43:06 ..... started STAR run
+Oct 30 17:43:48 ..... loading genome
+Oct 30 17:44:01 ..... started mapping
+Oct 30 18:29:26 ..... finished mapping
+Oct 30 18:29:33 ..... started Solo counting
+Oct 30 18:30:58 ..... finished Solo counting
+Oct 30 18:30:58 ..... finished successfully
